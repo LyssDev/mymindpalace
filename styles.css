@@ -1,0 +1,239 @@
+/**********TAG SElECTORS********/
+
+/**<table align= "center" cellspacing="15">
+  <thead>
+    <td><strong>Skills</strong></td>
+    <td><strong>Experience Level</strong></td>
+    <td><strong>Skills</strong></td>
+    <td><strong>Experience Level</strong></td>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Communication</td>
+      <td>⭐⭐⭐⭐⭐</td>
+      <td>Website Design</td>
+      <td>⭐⭐☆☆☆</td>
+    </tr>
+    <tr>
+      <td>Adaptability</td>
+      <td>⭐⭐⭐⭐⭐</td>
+      <td>Python</td>
+      <td>⭐⭐☆☆☆</td>
+    </tr>
+    <tr>
+      <td>Active listening</td>
+      <td>⭐⭐⭐⭐☆</td>
+      <td>SalesForce Admin</td>
+      <td>⭐☆☆☆☆</td>
+    </tr>
+    <tr>
+      <td>Interpersonal skills</td>
+      <td>⭐⭐⭐⭐☆</td>
+      <td>Creativity</td>
+      <td>⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>Problem-solving skills</td>
+      <td>⭐⭐⭐⭐⭐</td>
+      <td>Teamwork</td>
+      <td>⭐⭐⭐⭐☆</td>
+    </tr>
+    <tr>
+      <td>Customer Service Skills</td>
+      <td>⭐⭐⭐⭐⭐</td>
+      <td>Computer Skills</td>
+      <td>⭐⭐⭐⭐☆</td>
+    </tr>
+
+    <tr>
+      <td>Time Management</td>
+      <td>⭐⭐⭐⭐⭐</td>
+      <td>Critical Thinking</td>
+      <td>⭐⭐⭐⭐⭐</td>
+    </tr>
+
+  </tbody>
+</table>
+**/
+
+
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+
+
+}
+
+hr {
+  border: dotted #11999e 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 40px auto 40px;
+
+
+}
+
+h1 {
+  font-size: 5.5em;
+  margin-top: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+
+
+}
+
+h3 {
+  font-family: 'Sacramento', cursive;
+  color: #11999E;
+
+}
+
+p{
+  line-height: 2.5;
+}
+
+a {
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+/**********Class SElECTORS********/
+.topcontainer{
+  background-color: #EAF6F6;
+  position: relative;
+
+}
+
+.middle-container{
+  background-color: white;
+  padding-bottom: 25px;
+
+
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+.Pro{
+  text-decoration: underline;
+
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+.bottomcloud{
+  position: absolute;
+  left: 250px;
+
+}
+
+.topcloud{
+  position: relative;
+  left: 200px;
+  bottom:0;
+  top:10px;
+}
+
+.circle{
+  margin-top: 5%;
+  border-radius: 100%;
+}
+
+.skills {
+  margin-top: 5%;
+
+
+}
+.skill {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-top: 0;
+
+}
+.questionmark {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+
+.video{
+  position: relative;
+  left: 240px;
+  top: 20px;
+}
+
+.skill-row {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:0;
+  margin-bottom: 100px;
+  width: 50%;
+  text-align: left;
+
+}
+
+.contactmessage {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+  
+}
+
+
+.footer-link{
+  color: #11999E;
+}
+.copyright{
+  color: #EAF6F6;
+}
+/**********ID SElECTORS********/
